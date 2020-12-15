@@ -12,7 +12,7 @@ public class CoreJava {
 	     Map<String,Integer> abc=new HashMap<String,Integer>();
 		for(int i=0 ;i<st1.toCharArray().length;i++){
                 if(abc.containsKey(String.valueOf(dtr2[i]))){
-                	System.out.println("element is " +dtr2[i]);
+                	System.out.println("element is " +dtr2[i]) ;
                     break;    	
                 }else{
                 	abc.put(String.valueOf(dtr2[i]), new Integer(1));
